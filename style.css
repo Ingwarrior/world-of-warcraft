@@ -1,0 +1,132 @@
+.title {
+  border: 2px solid greenyellow;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: greenyellow;
+}
+.title .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 2px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border: 1px solid antiquewhite;
+  border-radius: 40px;
+  background-color: antiquewhite;
+}
+.title .navigation .inp {
+  padding: 0 30px;
+  font-size: 24px;
+  border: 1px solid orange;
+  border-radius: 10px;
+  background-color: orange;
+  -webkit-text-decoration: underline 0.5px;
+          text-decoration: underline 0.5px;
+}
+@media (max-width: 583px) {
+  .title .navigation .inp {
+    font-size: 19px;
+    padding: 0 20px;
+  }
+}
+@media (max-width: 400px) {
+  .title .navigation .inp {
+    font-size: 18px;
+    padding: 0 15px;
+  }
+}
+
+.bodi {
+  background-image: url(/images/phonBodi.jpg);
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.bodi .server1 {
+  color: white;
+  text-align: center;
+}
+.bodi .server1__img1 {
+  border-radius: 20px;
+  border: 1px solid greenyellow;
+  max-width: 400px;
+  max-height: 600px;
+}
+@media (max-width: 1196px) {
+  .bodi .server1 .server1__img1 {
+    max-width: 300px;
+    max-height: 600px;
+  }
+}
+@media (max-width: 897px) {
+  .bodi .server1 .server1__img1 {
+    max-width: 200px;
+    max-height: 500px;
+  }
+}
+@media (max-width: 602px) {
+  .bodi .server1 .server1__img1 {
+    max-width: 100px;
+    max-height: 400px;
+  }
+}
+.bodi .server2 {
+  text-align: center;
+  color: white;
+}
+.bodi .server2__img2 {
+  border-radius: 20px;
+  border: 1px solid greenyellow;
+  max-width: 400px;
+  max-height: 600px;
+}
+@media (max-width: 1196px) {
+  .bodi .server2 .server2__img2 {
+    max-width: 300px;
+    max-height: 600px;
+  }
+}
+@media (max-width: 897px) {
+  .bodi .server2 .server2__img2 {
+    max-width: 200px;
+    max-height: 500px;
+  }
+}
+@media (max-width: 602px) {
+  .bodi .server2 .server2__img2 {
+    max-width: 100px;
+    max-height: 400px;
+  }
+}
+.bodi .server3 {
+  color: white;
+  text-align: center;
+}
+.bodi .server3__img3 {
+  border-radius: 20px;
+  border: 1px solid greenyellow;
+  max-width: 400px;
+  max-height: 600px;
+}
+@media (max-width: 1196px) {
+  .bodi .server3 .server3__img3 {
+    max-width: 300px;
+    max-height: 600px;
+  }
+}
+@media (max-width: 897px) {
+  .bodi .server3 .server3__img3 {
+    max-width: 200px;
+    max-height: 500px;
+  }
+}
+@media (max-width: 602px) {
+  .bodi .server3 .server3__img3 {
+    max-width: 100px;
+    max-height: 400px;
+  }
+}
